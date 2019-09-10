@@ -1,0 +1,302 @@
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 12:36:26
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 12:37:06
+
+Optimize a model with 1 rows, 49 columns and 49 nonzeros
+Model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-01, 1e+01]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+02, 1e+02]
+Found heuristic solution: objective 5858.7365769
+Presolve time: 0.01s
+Presolved: 1 rows, 49 columns, 49 nonzeros
+Presolved model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+
+Root relaxation: objective 2.513110e+00, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.51311    0   39 5858.73658    5.42526   100%     -    0s
+H    0     0                       7.3094581    5.42526  25.8%     -    0s
+H    0     0                       5.4683009    5.42526  0.79%     -    0s
+     0     2    2.51311    0   39    5.46830    5.42526  0.79%     -    0s
+
+Explored 7495 nodes (15616 simplex iterations) in 0.44 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 5.4683 7.30946 5858.74 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.468300913411e+00, best bound 5.468300913411e+00, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 12:55:28
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 12:55:42
+
+Optimize a model with 1 rows, 49 columns and 49 nonzeros
+Model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+01]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+02, 1e+02]
+Found heuristic solution: objective 6661.7218893
+Presolve time: 0.00s
+Presolved: 1 rows, 49 columns, 49 nonzeros
+Presolved model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+
+Root relaxation: objective 3.838392e+02, 18 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  383.83917    0   30 6661.72189  383.83917  94.2%     -    0s
+H    0     0                     394.2278527  383.83917  2.64%     -    0s
+H    0     0                     390.0556393  383.83917  1.59%     -    0s
+     0     2  383.83917    0   30  390.05564  383.83917  1.59%     -    0s
+H   20    19                     388.2278527  384.34493  1.00%   2.4    0s
+ 98673 26671  387.37194   27   15  388.22785  387.37194  0.22%   2.5    5s
+ 194824 25627  387.72871   26   16  388.22785  387.72871  0.13%   2.4   10s
+ 246367  6614  388.09349   29   13  388.22785  388.09349  0.03%   2.4   15s
+
+Explored 253662 nodes (599826 simplex iterations) in 15.67 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 388.228 390.056 394.228 6661.72 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.882278526723e+02, best bound 3.881970197907e+02, gap 0.0079%
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 12:56:39
+
+Optimize a model with 1 rows, 49 columns and 49 nonzeros
+Model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+01]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+02, 2e+02]
+Found heuristic solution: objective 40139.723158
+Presolve time: 0.00s
+Presolved: 1 rows, 49 columns, 49 nonzeros
+Presolved model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+
+Root relaxation: objective 8.842716e-01, 2 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.88427    0   46 40139.7232    4.18071   100%     -    0s
+H    0     0                       5.4004908    4.18071  22.6%     -    0s
+H    0     0                       4.9739195    4.18071  15.9%     -    0s
+     0     2    0.88427    0   46    4.97392    4.18071  15.9%     -    0s
+ 116153 15543    4.58861   28   29    4.97392    4.58861  7.75%   2.0    5s
+
+Explored 150495 nodes (301949 simplex iterations) in 6.36 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 4.97392 5.40049 40139.7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.973919486265e+00, best bound 4.973436618527e+00, gap 0.0097%
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 13:22:06
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:09:17
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:11:42
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:12:55
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:13:09
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:13:14
+
+Optimize a model with 0 rows, 1 columns and 0 nonzeros
+Model has 1 quadratic objective term
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+02, 1e+02]
+  QObjective range [1e+01, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Barrier solved model in 0 iterations and 0.00 seconds
+Optimal objective 5.00943897e+00
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:13:24
+
+Optimize a model with 0 rows, 1 columns and 0 nonzeros
+Model has 1 quadratic objective term
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+02, 1e+02]
+  QObjective range [1e+01, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Barrier solved model in 0 iterations and 0.00 seconds
+Optimal objective 5.00943897e+00
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:14:08
+
+Optimize a model with 0 rows, 1 columns and 0 nonzeros
+Model has 1 quadratic objective term
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+02, 1e+02]
+  QObjective range [1e+01, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Barrier solved model in 0 iterations and 0.00 seconds
+Optimal objective 5.00943897e+00
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:14:59
+
+Optimize a model with 0 rows, 1 columns and 0 nonzeros
+Model has 1 quadratic objective term
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+02, 1e+02]
+  QObjective range [1e+01, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Barrier solved model in 0 iterations and 0.00 seconds
+Optimal objective 5.00943897e+00
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 17:15:05
+
+Optimize a model with 0 rows, 1 columns and 0 nonzeros
+Model has 1 quadratic objective term
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e+02, 1e+02]
+  QObjective range [1e+01, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Barrier solved model in 0 iterations and 0.00 seconds
+Optimal objective 5.00943897e+00
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 18:53:07
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 18:53:57
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 18:54:35
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 18:57:55
+
+Optimize a model with 1 rows, 49 columns and 49 nonzeros
+Model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e-01, 1e+01]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+02, 2e+02]
+Found heuristic solution: objective 39718.105649
+Presolve time: 0.01s
+Presolved: 1 rows, 49 columns, 49 nonzeros
+Presolved model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+
+Root relaxation: objective 8.265343e+01, 6 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   82.65343    0   49 39718.1056   82.65343   100%     -    0s
+H    0     0                     158.9925638   82.65343  48.0%     -    0s
+H    0     0                      89.6951392   82.65343  7.85%     -    0s
+H    0     0                      88.2082563   82.65343  6.30%     -    0s
+     0     2   82.65343    0   49   88.20826   82.65343  6.30%     -    0s
+ 169284 86461   85.96828   35   36   88.20826   85.96828  2.54%   2.0    5s
+ 353002 190734   86.34000   41   30   88.20826   86.34000  2.12%   2.0   10s
+ 550780 298626   86.54453   38   33   88.20826   86.54453  1.89%   2.0   15s
+ 751425 401811   86.68528   42   29   88.20826   86.68528  1.73%   2.0   20s
+ 947466 497943   86.78767   44   27   88.20826   86.78767  1.61%   2.0   25s
+
+Gurobi 7.5.2 (win64, Python) logging started 02/11/18 18:58:32
+
+Optimize a model with 1 rows, 49 columns and 49 nonzeros
+Model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e-01, 1e+01]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+02, 2e+02]
+Found heuristic solution: objective 18476.138563
+Presolve time: 0.00s
+Presolved: 1 rows, 49 columns, 49 nonzeros
+Presolved model has 49 quadratic objective terms
+Variable types: 0 continuous, 49 integer (0 binary)
+
+Root relaxation: objective 1.357879e+00, 5 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.35788    0   42 18476.1386    2.85509   100%     -    0s
+H    0     0                       3.5082167    2.85509  18.6%     -    0s
+H    0     0                       3.3160230    2.85509  13.9%     -    0s
+     0     2    1.35788    0   42    3.31602    2.85509  13.9%     -    0s
+
+Explored 733 nodes (1648 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 3.31602 3.50822 18476.1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.316023015841e+00, best bound 3.316023015841e+00, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 02/17/18 08:14:47
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/17/18 08:15:01
+
+
+Gurobi 7.5.2 (win64, Python) logging started 02/17/18 08:19:28
+
